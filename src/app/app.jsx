@@ -2,8 +2,8 @@ import React from "react";
 import { useCallback } from "react";
 import { useState } from "react";
 
-import Habits from "./components/habits";
-import Navbar from "./components/navbar";
+import Habits from "../components/habits/habits";
+import Navbar from "../components/navbar/navbar";
 import "./app.css";
 
 const App = ({ presenter }) => {
@@ -41,7 +41,6 @@ const App = ({ presenter }) => {
     presenter.reset(setHabits);
   }, [presenter]);
 
-  console.log("habits", habits);
   return (
     <>
       <Navbar totalCount={habits.filter((item) => item.count > 0).length} />
