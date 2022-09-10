@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`habit renders 1`] = `
+<li
+  className="habit"
+>
+  <span
+    className="habit-name"
+    data-testid="name"
+  >
+    taewoong
+  </span>
+  <span
+    className="habit-count"
+    data-testid="count"
+  >
+    28
+  </span>
+  <button
+    aria-label="increase"
+    className="habit-button habit-increase"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-plus-square"
+    />
+  </button>
+  <button
+    aria-label="decrease"
+    className="habit-button habit-decrease"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-minus-square"
+    />
+  </button>
+  <button
+    aria-label="delete"
+    className="habit-button habit-delete"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-trash"
+    />
+  </button>
+</li>
+`;
